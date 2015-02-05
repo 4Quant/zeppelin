@@ -224,7 +224,49 @@
           <artifactId>wagon-http-shared</artifactId>
         </exclusion>
       </exclusions>
-    </dependency>    
+    </dependency>
+
+      <!-- spark image layer dependencies -->
+      <dependency>
+          <groupId>quant.tipl</groupId>
+          <artifactId>tipl-core</artifactId>
+          <version>${tipl.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>quant.tipl</groupId>
+          <artifactId>tipl-spark</artifactId>
+          <version>${tipl.version}</version>
+      </dependency>
+      <!-- for running jakobs example with web guis -->
+      <dependency>
+          <groupId>quant.tipl</groupId>
+          <artifactId>tipl-webgui</artifactId>
+          <version>${tipl.version}</version>
+      </dependency>
+      <!-- for baseblockrunner class -->
+      <dependency>
+          <groupId>quant.tipl</groupId>
+          <artifactId>tipl-workflows</artifactId>
+          <version>${tipl.version}</version>
+      </dependency>
+      <!-- for running jakobs example with visualizations -->
+      <dependency>
+          <groupId>quant.tipl</groupId>
+          <artifactId>tipl-volviewer</artifactId>
+          <version>${tipl.version}</version>
+      </dependency>
+      <!-- for interacting with imagej -->
+      <dependency>
+          <groupId>quant.tipl</groupId>
+          <artifactId>tipl-jython</artifactId>
+          <version>${tipl.version}</version>
+      </dependency>
+
+      <dependency>
+          <groupId>quant.tipl</groupId>
+          <artifactId>tipl-examples</artifactId>
+          <version>${tipl.version}</version>
+      </dependency>
 
     <dependency>
       <groupId>junit</groupId>
